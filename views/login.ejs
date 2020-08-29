@@ -1,0 +1,120 @@
+<%- include('partials/header') %>
+
+<section id="logo">
+      <div class="container-fluid bar">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+          <a class="navbar-brand" href="">Videooz</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="navbarSupportedContent" class="collapse navbar-collapse" >
+
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a href="#boot" class="nav-link">Features</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#navbarSupportedContent" class="nav-link">Pricing</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a href="#boot" class="nav-link">Contact</a>
+                  </li>
+              </ul>
+
+          </div>
+      </nav>
+      </div>
+  </section>
+ <section id="image">
+    <div class="container" >
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12"></div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+              <form class="form-container" action="/login" method="POST">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" name="username">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+                  </div>
+                  <div class="form-group form-check">
+                    <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label> -->
+                  </div>
+                  <button type="submit" class="btn  btn-block btn-primary">Login</button>
+                  <!-- <button class="loginBtn loginBtn--facebook mate">
+                      Login with Facebook
+                  </button>
+                  <button class="loginBtn loginBtn--google mate">
+                      Login with Google
+                    </button> -->
+                </form>
+        <div class="col-md-4 col-sm-12 col-xs-12"></div>
+        </div>
+          </div>
+    </div>
+
+ </section>
+ <section class="foot" id="boot">
+  <footer class="bg-dark text-white">
+      <div class="container py-4">
+          <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                  <h4>About Us</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Rerum iure natus quos! Quidem corporis a eligendi similique quia laboriosam laborum reprehenderit.</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                  <h4>Links</h4>
+                  <ul class="list-unstyled">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">Services</a></li>
+                      <li><a href="">Contact</a></li>
+
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                  <h4>Contact Us At</h4>
+                  <p>
+                      <address>#2000 8th Main Rajajinagar,Bangalore-560010</address>
+                      Phone: +91-9900001256<br>
+                      Email: <a href="mailto:test@abc.com">test@abc.com</a>
+                  </p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                  <h4>Newsletters</h4>
+                  <p>Enter your email address: </p>
+                  <form  action="">
+                      <div class="input-group">
+                          <input type="email" name="mail" id="" class="form-control">
+                          <div class="input-group-append">
+                              <button class="btn btn-primary">Submit</button>
+                          </div>
+                      </div>
+
+                  </form>
+              </div>
+
+
+          </div>
+      </div>
+      <div class="container icons">
+          <a href="https://twitter.com"><i class="fab fa-twitter footer-icons fa-1x"></i></a>
+          <a href="https://facebook.com"><i class="fab fa-facebook-f footer-icons fa-1x"></i></a>
+          <a href="https://instagram.com"><i class="fab fa-instagram footer-icons fa-1x"></i></a>
+          <a href="https://gmail.com"><i class="fas fa-envelope footer-icons fa-1x"></i></a>
+      </div>
+
+  </footer>
+
+  <div class="container-fluid text-center bg-dark text-muted">
+      &copy;2020 Copyright: Breeze.com
+  </div>
+ </section>
+
+
+<%- include('partials/footer') %>
